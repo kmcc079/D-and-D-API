@@ -1,0 +1,32 @@
+*,*:before,*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    /* border: solid 2px red */
+}
+
+body {
+    padding-top: 50px;
+    background: url('../../static/images/hello_neon_sign.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-position-y: -160px;
+}
+
+nav {
+    border: 3px solid darkgray
+}
+
+.main-pg {
+    min-height: 1vh;
+    margin-top: 15%;
+}
+
+.list-group-item {
+    background-color: lightgray;
+}
+
+.acct-details {
+    margin-top: 200px;
+}
